@@ -1,32 +1,24 @@
-# Prerequisites
-*.d
+﻿
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
+/.vs/VSWorkspaceState.json
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+*.suo
+*.db
+*.tlog
+*.log
+*.FileListAbsolute.txt
 *.exe
-*.out
-*.app
+*.ipch
+*.obj
+*.db-shm
+*.db-wal
+*.filters
+*.vcxproj
+*.sln
+*.pdb
+*.user
+*.idb
+*.ilk
+*.recipe
+*.opendb

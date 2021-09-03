@@ -8,6 +8,17 @@ int main() {
 
 	cin >> a >> b;
 
+	while ((a > 0) && (b > 0)) {
+		if (a > b) {
+			a = a % b;
+		}
+		else {
+			b = b % a;
+		}
+	}
+
+	cout << a + b;
+/*
 	int divident{ a };
 	int theBiggestDivider{ 1 };
 
@@ -21,5 +32,5 @@ int main() {
 
 	}
 
-	cout << theBiggestDivider;
+	cout << theBiggestDivider;*/
 }
